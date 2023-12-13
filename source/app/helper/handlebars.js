@@ -1,6 +1,5 @@
 const Handlebars = require('handlebars');
 module.exports = {
-    sum: (...a) => [...a].reduce((total, num) => total + (+num || 0)),
     sortable: (field, sort) => {
         // const sortType = field === sort.column ? sort.type : 'default';
         const icons = {
